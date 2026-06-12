@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cedarwood Estates South | Bridge Properties</title>
+  <meta name="description" content="Cedarwood Estates South at Jumeirah Golf Estates. Luxury 4, 5 and 6 bedroom golf villas by Wasl." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html"><img src="assets/logo.png" alt="Bridge Properties logo" /></a>
+    <nav class="nav"><a href="index.html#projects">Projects</a><a href="index.html#contact">Contact</a></nav>
+    <div class="lang-switch"><button data-lang="en">EN</button><button data-lang="ru">RU</button><button data-lang="az">AZ</button></div>
+  </header>
+
+  <main>
+    <section class="project-hero cedarwood-hero">
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <p class="eyebrow">Jumeirah Golf Estates</p>
+        <h1>Cedarwood Estates South</h1>
+        <p>Crafted by nature, perfected by design. A collection of 74 high-end golf villas with private pools and resort-style privileges.</p>
+        <div class="hero-actions"><a class="btn primary" href="#inquiry">Request Details</a><a class="btn ghost" href="https://wa.me/971561422113?text=Hello%20Bridge%20Properties,%20I%20am%20interested%20in%20Cedarwood%20Estates%20South" target="_blank">WhatsApp</a></div>
+      </div>
+    </section>
+
+    <section class="section-pad project-detail-grid">
+      <div class="detail-card"><span>Starting Price</span><strong>AED 13.35M</strong></div>
+      <div class="detail-card"><span>Bedrooms</span><strong>4–6 BR</strong></div>
+      <div class="detail-card"><span>Payment Plan</span><strong>50/50</strong></div>
+      <div class="detail-card"><span>Handover</span><strong>Mar 2029</strong></div>
+    </section>
+
+    <section class="section-pad">
+      <div class="section-head"><p class="eyebrow">Villa Types</p><h2>Golf villas with generous plots</h2></div>
+      <div class="villa-grid">
+        <div class="villa-card"><h3>4 Bedroom Villa</h3><p>BUA 6,085 sq.ft.</p><p>Plot 6,361–7,406 sq.ft.</p><strong>From AED 13.35M</strong></div>
+        <div class="villa-card"><h3>5 Bedroom Villa</h3><p>BUA 7,646 sq.ft.</p><p>Plot 9,472–18,091 sq.ft.</p><strong>From AED 18.67M</strong></div>
+        <div class="villa-card"><h3>6 Bedroom Villa</h3><p>BUA 9,212 sq.ft.</p><p>Plot 10,764–15,105 sq.ft.</p><strong>From AED 25.96M</strong></div>
+      </div>
+    </section>
+
+    <section class="section-pad split">
+      <div><p class="eyebrow">Amenities</p><h2>Resort-style living</h2><p>Country Club access, golf course views, private pool, equestrian centre, tennis stadium, central park, green corridors, cycling and jogging tracks.</p></div>
+      <div class="amenity-list"><span>Private Pool</span><span>Golf Views</span><span>Country Club</span><span>Equestrian Centre</span><span>Tennis Stadium</span><span>Central Park</span><span>EV Provision</span><span>Security</span></div>
+    </section>
+
+    <section id="inquiry" class="section-pad lead-section">
+      <div class="lead-copy"><p class="eyebrow">Cedarwood Inquiry</p><h2>Request availability and price list</h2><p>Send your inquiry directly to Bridge Properties by WhatsApp.</p></div>
+      <form class="lead-form" onsubmit="sendLead(event, 'Cedarwood Estates South')">
+        <input id="name" type="text" placeholder="Full name" required />
+        <input id="phone" type="tel" placeholder="Phone / WhatsApp" required />
+        <select id="interest"><option>4 Bedroom Villa</option><option>5 Bedroom Villa</option><option>6 Bedroom Villa</option><option>Investment details</option></select>
+        <textarea id="message" rows="4" placeholder="Preferred unit type, budget and questions"></textarea>
+        <button class="btn primary" type="submit">Send via WhatsApp</button>
+      </form>
+    </section>
+  </main>
+
+  <a class="whatsapp-float" href="https://wa.me/971561422113" target="_blank" rel="noopener">WhatsApp</a>
+  <footer class="footer"><img src="assets/logo.png" alt="Bridge Properties logo" /><p>© 2026 Bridge Properties. Dubai, UAE.</p></footer>
+  <script src="script.js"></script>
+</body>
+</html>
